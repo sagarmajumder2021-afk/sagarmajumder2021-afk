@@ -1,0 +1,73 @@
+name: 🌍 Daily AI & Tech News Auto-Updater
+
+on:
+  schedule:
+    - cron: '30 2 * * *'  # 8:00 AM IST daily
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Daily Trending News
+        run: |
+          echo "📰 Fetching latest tech news..."
+          python3 <<'PYCODE'
+import requests, datetime, re
+
+# Using free news sources instead of NewsAPI for demo
+def fetch_reddit_news(subreddit):
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=3"
+    headers = {'User-Agent': 'TechNewsBot/1.0'}
+    try:
+        res = requests.get(url, headers=headers).json()
+        if "data" in res and "children" in res["data"]:
+            return [f"- 🔥 [{post['data']['title'][:80]}...](https://reddit.com{post['data']['permalink']})" 
+                   for post in res["data"]["children"][:3]]
+    except Exception as e:
+        print(f"Error fetching {subreddit}: {e}")
+    return []
+
+today = datetime.datetime.now().strftime("%d %B %Y")
+news_text = f"## 🗞️ Trending AI, Tech & Business News ({today})\n\n"
+
+subreddits = {
+    "🤖 Artificial Intelligence": "artificial",
+    "🛡️ Cybersecurity": "cybersecurity", 
+    "💼 Business": "business",
+    "💰 Finance": "finance",
+    "🔧 Technology": "technology",
+    "🚀 Future Tech": "futurology"
+}
+
+for title, subreddit in subreddits.items():
+    headlines = fetch_reddit_news(subreddit)
+    if headlines:
+        news_text += f"### {title}\n" + "\n".join(headlines) + "\n\n"
+
+with open("README.md", encoding="utf-8") as f:
+    content = f.read()
+
+# Remove old news section
+content = re.sub(r"## 🗞️ Trending AI, Tech & Business News[\s\S]*?(?=##|$)", "", content)
+
+# Add updated section at bottom
+updated = content.strip() + "\n\n" + news_text.strip() + "\n"
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(updated)
+
+print("✅ News section updated successfully!")
+PYCODE
+
+      - name: Commit and Push Updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "🗞️ Auto-update daily AI & Tech news" || exit 0
+          git push
