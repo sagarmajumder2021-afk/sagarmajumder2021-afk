@@ -1,78 +1,66 @@
-# Hey there, I'm Sagar 👋  
+# Hey, I'm Sagar 👋
 
-### 🚀 AI & Automation Enthusiast | Future Builder | Learning Every Day  
+**AI Automation Engineer | Building practical solutions that actually work**
 
-I'm a passionate learner diving deep into **Artificial Intelligence, Automation, and Web Technologies**.  
-I believe in building projects that make people say — *"That's smart!"* 😎  
-
----
-
-### 💡 About Me  
-- 🔭 Currently exploring: **AI Tools, Machine Learning & Automation**
-- 🌱 Always learning something new every week  
-- 💬 Ask me about: GitHub, AI ideas, branding, and automation tools  
-- ⚡ Fun fact: I love turning creative ideas into working projects  
+I'm passionate about turning complex problems into simple, reliable automation that teams can actually use. Currently focused on AI-powered workflows, data dashboards, and cybersecurity tools that make a real difference.
 
 ---
 
-### 🛠️ Tech Stack  
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
-![AI](https://img.shields.io/badge/-Artificial%20Intelligence-05122A?style=flat&logo=openai)
-![Automation](https://img.shields.io/badge/-Automation-05122A?style=flat&logo=zapier)
+## 🛠️ What I Work With
+- **Languages**: Python, JavaScript, HTML/CSS
+- **AI & Automation**: OpenAI API, Workflow Automation, Smart Bots
+- **Data**: Pandas, Matplotlib, Plotly, Analytics Dashboards  
+- **Tools**: GitHub Actions, APIs, Streamlit, FastAPI
 
 ---
 
-### 📊 GitHub Stats  
+## 🚀 Featured Projects
+
+### 🤖 [AI Automation Bot](https://github.com/sagarmajumder2021-afk/ai-automation-bot)
+Smart bot that handles repetitive tasks with AI decision-making. Automates emails, social posts, and file organization.
+
+### 📊 [Data Analytics Dashboard](https://github.com/sagarmajumder2021-afk/data-analytics-dashboard)  
+Interactive dashboard for visualizing CSV/JSON data with real-time charts and beautiful interface.
+
+### 🌐 [Portfolio Website](https://github.com/sagarmajumder2021-afk/portfolio-website)
+Modern, responsive portfolio showcasing projects with clean UI/UX design.
+
+### 🛡️ [CyberSentinel](https://github.com/sagarmajumder2021-afk/CyberSentinel)
+AI-driven cybersecurity monitoring system for real-time threat detection.
+
+---
+
+## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sagarmajumder2021-afk&show_icons=true&theme=tokyonight" alt="GitHub stats" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sagarmajumder2021-afk&theme=tokyonight" alt="GitHub streak" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sagarmajumder2021-afk&show_icons=true&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sagarmajumder2021-afk&theme=tokyonight" height="150"/>
 </p>
 
 ---
 
-### 🔥 Featured Projects  
-#### 🧠 [AI Automation Tools](https://github.com/sagarmajumder2021-afk/AI-Automation-Tools)
-> Advanced AI automation tools and workflows for business productivity.
-
-#### 🤖 [Auto LinkedIn Poster](https://github.com/sagarmajumder2021-afk/auto-linkedin-poster)
-> Automated LinkedIn posting bot that finds trending topics from Reddit.
-
-#### 🛡️ [CyberSentinel](https://github.com/sagarmajumder2021-afk/CyberSentinel)
-> AI-driven real-time cybersecurity monitoring and threat detection system.
-
-#### 💼 [Smart Business Insights](https://github.com/sagarmajumder2021-afk/Smart-Business-Insights)
-> AI-powered business intelligence platform for trend prediction.
-
-#### 💸 [FinFlow](https://github.com/sagarmajumder2021-afk/FinFlow)
-> Advanced finance automation and analytics dashboard.
+## 🎯 What I'm Up To
+- 🔭 Building AI automation tools for small teams
+- 🌱 Learning advanced ML workflows and cloud deployment
+- 💡 Exploring the intersection of AI, business, and cybersecurity
+- 📚 Always experimenting with new automation ideas
 
 ---
 
-### 🏆 Achievements & Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sagarmajumder2021-afk&theme=dracula&no-bg=true" alt="trophies"/>
-</p>
+## 🤝 Let's Collaborate
+I'm always open to working on interesting AI/automation projects! Feel free to:
+- 🐛 Open issues or PRs on my repos
+- 💬 Reach out for collaboration ideas
+- 📧 Drop me a line: **sagarm.work@gmail.com**
 
 ---
 
-### 🌍 Connect With Me  
+## 🌐 Connect With Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sagar-majumder-9355b6377)
 [![Email](https://img.shields.io/badge/-Email-red?style=flat&logo=gmail&logoColor=white)](mailto:sagarm.work@gmail.com)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/sagarmajumder2021-afk)
 
 ---
 
-### 📈 Profile Views  
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sagarmajumder2021-afk&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
-</p>
-
----
-
-> 💬 "The best way to predict the future is to create it." — Peter Drucker  
->  
-> ⚡ *Driven by curiosity & creativity.*
+> 💭 *"The best automation is the one that works so well, you forget it's there."*  
+> 
+> ⚡ Currently based in India | Always learning, always building
